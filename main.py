@@ -1,5 +1,5 @@
 from nnfs.datasets import spiral_data, vertical_data
-
+from  src.neural_network import *
 
 # Create dataset
 X, y = spiral_data(samples=100, classes=3)
